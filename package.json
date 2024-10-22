@@ -1,0 +1,21 @@
+{
+  "name": "cloud-run-app",
+  "version": "1.0.0",
+  "description": "Cloud run app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Neil Kolban",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.16.4",
+    "localtunnel": "^2.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
+    "pg": "^8.11.5",
+    "redis": "^3.0.2"
+    }
+}
